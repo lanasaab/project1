@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-group">
                     <label for="arrival_time">Arrival Time:</label>
-                    <input type="datetime-local" class="form-control" id="arrival_time" name="arrival_timee" value="{{ old('arrival_time') }}">
+                    <input type="datetime-local" class="form-control" id="arrival_time" name="arrival_time" value="{{ old('arrival_time') }}">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
